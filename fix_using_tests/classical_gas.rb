@@ -1,3 +1,4 @@
+require 'pry'
 class GasStation
 
   attr_reader :brand, :unleaded_price
