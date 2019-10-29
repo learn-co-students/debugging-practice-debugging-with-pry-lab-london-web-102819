@@ -26,4 +26,5 @@ class Person
         "not a ballin candy lover"
     end
   end
+  end
 end
