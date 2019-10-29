@@ -1,3 +1,5 @@
+require 'pry'
+
 class GasStation
 
   attr_reader :brand, :unleaded_price
@@ -7,7 +9,12 @@ class GasStation
     @unleaded_price = unleaded_price
   end
 
+  def unleaded_price=(new_price)
+    @unleaded_price = new_price
+  end
+
 end
+
 
 petrol_petes = GasStation.new("Petrol Pete's", 50)
 seashore_shell = GasStation.new("The Seashore Shell", 40)
